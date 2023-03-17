@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - print a C program using printf
+ * main - print a C program that prints out various data types
  *
- * Return: 0
+ * Return: 0 (Success)
 */
 int main(void)
 {
@@ -13,8 +13,8 @@ int main(void)
 	float f;
 	printf("size of char: %lu byte(s)\n", (unsigned long)sizeof(a));
 	printf("size of int: %lu byte(s)\n", (unsigned long)sizeof(b));
-	printf("size of long: %lu byte(s)\n", (unsigned long)sizeof(c));
-	printf("size of long long: %lu byte(s)\n", (unsigned long)sizeof(d));
+	printf("size of long int: %lu byte(s)\n", (unsigned long)sizeof(c));
+	printf("size of long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
 	printf("size of float: %lu byte(s)\n", (unsigned long)sizeof(f));
 	return (0);
 }
