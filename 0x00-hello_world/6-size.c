@@ -3,7 +3,7 @@
  * main - print a C program that prints out various data types
  *
  * Return: 0 (Success)
- */
+*/
 int main(void)
 {
 printf("size of a char: %lu byte(s)\n", (unsigned long)sizeof(char));
