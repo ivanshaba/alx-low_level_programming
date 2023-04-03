@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * function takes in a pointer to a memory area s, a constant byte b, and the number of bytes n to fill with the constant byte
  *  It then uses a loop to fill each byte in the memory area with the constant byte b 
