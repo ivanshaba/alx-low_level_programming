@@ -6,7 +6,8 @@
  * Fill each byte in the block of memory
  * pointed to by s with the value of b
 */ 
-char *_memset(char *s, char b, unsigned int){
+char *_memset(char *s, char b, unsigned int n)
+{
 	unsigned int i;
 
 	for (i = 0; i < n; i++)
