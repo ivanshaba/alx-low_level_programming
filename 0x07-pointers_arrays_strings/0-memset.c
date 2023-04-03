@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _memset -  function sending a constant to memory
  * declare an unsigned int
