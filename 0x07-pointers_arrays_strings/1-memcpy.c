@@ -9,11 +9,15 @@
  *
  * Return: pointer to destination
 */
-char *_memcpy(char *dest, const char *src, size_t n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-        for (size_t i = 0; i < n; i++)
-        {
-                dest[i] = src[i];
-        }
-        return dest;
+	unsigned int i = 0;
+
+	while (i < n)
+	{
+		dest[i] = src[i];
+		i++;
+	}
+
+	return (dest);
 }
