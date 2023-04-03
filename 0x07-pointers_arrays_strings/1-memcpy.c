@@ -1,4 +1,6 @@
+#include <stdio.h>
 #include "main.h"
+
 /**
  * _memcpy - function copies @n bytes from memory area @src
  * to memory area @dest
@@ -8,7 +10,7 @@
  * @dest: destination pointer
  *
  * Return: pointer to destination
- */
+*/
 char *_memcpy(char *dest, const char *src, size_t n)
 {
         for (size_t i = 0; i < n; i++)
