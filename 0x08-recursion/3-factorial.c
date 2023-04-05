@@ -7,7 +7,7 @@
  * Return: the factorial of the given number, or -1 if the number is negative.
  */
 
-int calc_factorial(int num)
+int factorial(int num)
 {
 	if (num < 0) // check if number is negative
 	{
@@ -17,5 +17,5 @@ int calc_factorial(int num)
 	{
 		return (1); // return 1 if the number is 0
 	}
-	return (num * calc_factorial(num - 1)); // calculate factorial using recursion
+	return (num * factorial(num - 1)); // calculate factorial using recursion
 }
