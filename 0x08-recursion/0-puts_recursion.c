@@ -1,17 +1,19 @@
 #include "main.h"
+
 /**
- * *my_puts_recursion - recursively print a string.
- * *@str: pointer to a character string.
- * *Return: none.
+ * recursive_puts - prints a string recursively.
+ * @s: pointer to char
+ * Returns: nothing
 */
-void _puts_recursion(char *str)
+void recursive_puts(char *s)
 {
-	if (*str != '\0')
-	{
-		_putchar(*str);
-		_puts_recursion(str + 1);
-	}
-	else
-		_putchar('\n');
-}
+    if (*s != '\0')
+    {
+        _putchar(*s);
+        recursive_puts(s + 1);
+    }
+    else
+    {
+        _putchar('\n');
+    }
 }
