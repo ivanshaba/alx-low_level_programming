@@ -11,6 +11,7 @@
  * contains the contents of s1, followed by the contents of s2,
  * and null terminated, NULL on failure
  */
+
 char *str_concat(char *s1, char *s2)
 {
         int i, j, len1, len2, len;
