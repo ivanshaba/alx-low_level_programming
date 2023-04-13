@@ -1,17 +1,18 @@
+#include "main.h"
+
 /**
-malloc_checked - Allocates memory and checks if allocation was successful.
-@b: size of the memory to be allocated.
-Return: Pointer to the allocated memory.
-*/
+ * malloc_checked - Cause normal process termination with a status value of 98
+ *
+ * @b: Allocated memory
+ *
+ * Return: A pointer to the allocated memory
+ */
 void *malloc_checked(unsigned int b)
 {
-	void *ptr;
-	ptr = malloc(b);
-	if (ptr == NULL)
-	{
-		/* Print an error message and exit with status 98 */
-		printf("Memory allocation failed\n");
+	void *i;
+
+	i = malloc(b);
+	if (i == NULL)
 		exit(98);
-	}
-	return (ptr);
+	return (i);
 }
