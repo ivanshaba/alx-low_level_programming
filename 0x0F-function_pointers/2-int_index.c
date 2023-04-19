@@ -1,5 +1,4 @@
 #include "function_pointers.h"
-#include <stdbool.h>
 
 /**
   * int_index - Searches for an integer in an array using a function pointer.
